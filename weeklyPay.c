@@ -11,7 +11,7 @@ int main(void){
 	
 	do{
 		
-		printf("\nEnter pay code :\n\n 1.Managers\n2.Hourly worker\n3.Commission workers\n4.Pieceworkers\n5.Total Salary and Exit  : ");
+		printf("\nEnter pay code :\n\n1.Managers\n2.Hourly worker\n3.Commission workers\n4.Pieceworkers\n5.Total Salary and Exit  : ");
 		scanf("%d", &code );
 		
 		switch(code){
@@ -81,6 +81,7 @@ int main(void){
 	}while( code != 5 );
 	
 	printf("\nTotal salary is $%.2lf", total );
+	puts("");
 	
 	
 }
